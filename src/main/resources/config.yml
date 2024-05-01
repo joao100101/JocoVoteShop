@@ -1,0 +1,46 @@
+#
+# O nome dos encantamentos pode ser encontrado no link a seguir
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+#
+Config:
+  Menu:
+    Linhas: 5
+  Items:
+    '44':
+      item: EMERALD
+      name: "&a@player"
+      purchasable: false
+      command: false
+      command-line: ""
+      value: 0
+      enchantments: [ ]
+      lore:
+        - ''
+        - '&aVocê tem §f@votes §avotos'
+        - ''
+    '0':
+      item: DIAMOND
+      name: "&b&lVIP &3&l1&b&l DIA"
+      purchasable: true
+      command: true
+      command-line: "darvip @player ameizin 1"
+      value: 12
+      enchantments: [ ]
+      lore:
+        - ''
+        - '&7Valor: &f@value &7votos'
+        - ''
+    '1':
+      item: DIAMOND_SWORD
+      name: "&c&lESPADA VORAZ"
+      purchasable: true
+      command: false
+      command-line: ""
+      value: 30
+      enchantments:
+        - 'SHARPNESS:5'
+        - 'UNBREAKING:3'
+      lore:
+        - ''
+        - '&7Valor: &f@value &7votos'
+        - ''

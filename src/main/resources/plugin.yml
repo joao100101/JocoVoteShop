@@ -1,0 +1,9 @@
+name: JocoVoteShop
+version: '${project.version}'
+main: io.github.joao100101.jocovoteshop.JocoVoteShop
+api-version: '1.20'
+commands:
+  voteshop:
+    description: gerenciamento de votes e refs
+  vs:
+    description: gerenciamento de votes e refs
